@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+  font-family: 'Muli', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of the css reset */
+
+
+
+/* start css style */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+header{
+  width: 100%;
+  height: 676px;
+  background: url(../images/bg.png) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.header-panel{
+  margin-top:168px;
+  float: left;
+}
+.header-panel img.logo{
+  margin-left: 140px;
+}
+.header-panel h1.best{
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 36px;
+  color: #fff;
+}
+.header-panel img.app{
+  margin-left: 105px;
+  margin-top: 65px;
+}
+
+.pic1{
+  float: left;
+  margin-left: 160px;
+  margin-top: 80px;
+}
+
+/* End of header */
+
+/* Start contemt  */
+.content img.pic2{
+  margin-top: 60px;
+  float: left;
+}
+.content .content-text-1{
+  margin-top: 265px;
+  text-align: center;
+  width: 340px;
+  float: right;
+}
+.content .content-text-1 h1{
+  font-size: 36px;
+}
+.content .content-text-1 p{
+  margin-top: 48px;
+  font-size: 24px;
+}
+
+.content img.pic3{
+  margin-top: 60px;
+  float: right;
+  margin-bottom: 104px;
+}
+.content .content-text-2{
+  margin-top: 265px;
+  text-align: center;
+  width: 340px;
+  float: left;
+}
+.content .content-text-2 h1{
+  font-size: 36px;
+}
+.content .content-text-2 p{
+  margin-top: 48px;
+  font-size: 24px;
+}
+
+/* End of content*/
+
+/* Start Support */
+.support{
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  height: 334px;
+  background: url(../images/bg2.png) no-repeat;
+  background-size: cover;
+}
+.support h1{
+  margin-top: 85px;
+  font-size: 36px;
+  color: #fff;
+  padding-bottom: 60px;
+}
+.support .get{
+  border-radius: 50px;
+  margin: 0 auto;
+  background: #fff;
+  width: 415px;
+  height: 85px;
+}
+.support .get p{
+  font-size: 24px;
+  padding-top: 30px;
+}
+.support .get a{
+  text-decoration: none;
+  color:#fc3232;
+}
+
+/* End of Support */
+
+/* Start Footer */
+footer{
+  background: #181818;
+  width: 100%;
+  height: 180px;
+  text-align: center;
+}
+footer img{
+  margin-top: 70px;
+}
